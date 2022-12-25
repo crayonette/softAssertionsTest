@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class softAssertionsTest {
     @Test
-    void softAssertionsIsOnTheWikiPage(){
+    void SoftAssertionsIsOnTheWikiPage(){
 //  Откройте страницу Selenide в Github
         open("https://github.com/selenide/selenide");
 //  Перейдите в раздел Wiki проекта
