@@ -4,9 +4,9 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class softAssertionsTest {
+public class SoftAssertionsTest {
     @Test
-    void SoftAssertionsIsOnTheWikiPage(){
+    void softAssertionsIsOnTheWikiPage(){
 //  Откройте страницу Selenide в Github
         open("https://github.com/selenide/selenide");
 //  Перейдите в раздел Wiki проекта
